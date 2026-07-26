@@ -1,0 +1,16 @@
+# Dependencies for the training and evaluation notebooks (notebooks/)
+torch>=1.10.0
+torchvision>=0.11.0
+numpy>=1.19.0
+Pillow>=8.0.0
+matplotlib>=3.4.0
+nltk>=3.6.0
+tqdm>=4.62.0
+scikit-image>=0.18.0
+h5py>=3.6.0
+gdown>=4.4.0
+
+# COCO tooling and caption metrics (BLEU, METEOR, ROUGE-L, CIDEr, SPICE)
+pycocotools>=2.0.4
+pycocoevalcap>=1.0
+rouge>=1.0.1

@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets (downloaded by notebooks/train_captioner.ipynb)
+data/
+
+# Model weights, checkpoints and training artifacts
+*.pth
+*.pt
+*.h5
+checkpoints*/
+training_log.json
+
+# Flask
+instance/
+uploads/
+
+# Editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
