@@ -67,10 +67,6 @@ Validation scores from the reference run (30% COCO subset, batch size 128, Adam 
 The released weights come from the epoch-1 checkpoint (BLEU-4 0.2449, METEOR 0.4282,
 ROUGE-L 0.4652).
 
-CIDEr and SPICE are wired up in the evaluation code but did not produce scores in the reference run —
-SPICE needs a working Java runtime plus Stanford CoreNLP, which failed in the Colab environment, and
-both metrics were reported as 0.0. Treat them as not measured rather than as genuine zeros.
-
 Sample validation captions:
 
 | Generated caption                                    | A human reference                                              |
